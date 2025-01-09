@@ -202,15 +202,15 @@ body{
 }
 .fables-page-title {
     color: #fff;
-    border-left-style: solid;
-    border-left-width: 9px;
+    /* border-left-style: solid; */
+    /* border-left-width: 9px; */
     z-index: 1;
     position: relative;
     padding-left: 16px;
     margin-top: 108px;
-    line-height: 80px;
-    font-size: 40px;
-    font-weight: 700;
+    /* line-height: 80px; */
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: 47px;
 }
 .fables-top-header-signin{
@@ -231,6 +231,18 @@ body{
     right: 12px;
     font-size: 12px;
 }
+
+/* Contact */
+
+.container-contact{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+
+
+
+
 .lang-dropdown .dropdown-item {
     padding: 0 11px;
     border-bottom: 1px solid #90989f;
@@ -1373,10 +1385,10 @@ body{
 .fables-contact-form {
     margin-bottom: 25px;
 }
-#map {
+/* #map {
  width: 100%;
  height: 420px;
- }
+ } */
 .fables-contact-social-links{
     justify-content: center;
 }

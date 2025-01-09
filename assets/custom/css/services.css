@@ -68,9 +68,9 @@ p {
   color: #ffffff;
 }
 
-.card:hover p {
+/* .card:hover p {
   color: #f0f0f0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   section {

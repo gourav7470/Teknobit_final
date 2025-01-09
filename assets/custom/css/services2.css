@@ -1,0 +1,84 @@
+.services-section{
+  padding: 50px 60px;
+}
+
+.services-section h1 {
+  text-align center;
+  text-transform: uppercase;
+}
+.services-section h1::after{
+  content: " ";
+  width: 210px;
+  height: 5px;
+  background-color: #d8db1d;
+  display: flex;
+  margin: auto;
+}
+.cards-section{
+  text-align: center;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.cards-section>div{
+  padding: 30px 10px;
+  background-color:#5e5e5e;
+  cursor: pointer;
+}
+.cards-section>div:hover{
+  background-color: #8c8c8c;
+  transition: 0.2s ease;
+}
+.cards-section i{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%
+  background-color: #d8db1d;
+  color:#fff;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.cards-section i:hover{
+  background-color: #5e5e5e;
+  transition: 0.5s ease;
+}
+
+.card-section h2{
+  font-family: sans-sarif;
+  color: #fff;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+
+}
+.card-section p){
+  color: #d4d4d4;
+  margin-button: 15px;
+  line-height: 1.5;
+}
+.card-section a{
+  margin-top: 10px;
+  display: inline-block;
+  color: #fff;
+  background-color: #d8db1d;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+}
+
+.cards-section a:hover{
+  background-color: #5e5e5e;
+  transition: 0.5s ease;
+}
+
+@media.screen.and.( max-width: 768px){
+  .cards-section{
+    grip-template-columns: repeat(1. 1fr);
+  }
+}
+
+
+
+
