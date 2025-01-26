@@ -113,6 +113,7 @@
 }
 .fables-iconemail:before {
   content: "\e93d";
+  color: white;
 }
 .fables-iconeye:before {
   content: "\e90d";
@@ -161,15 +162,18 @@
 }
 .fables-iconmap-icon:before {
   content: "\e91c";
+  color: white;
 }
 .fables-iconmobileApp-icon:before {
   content: "\e91d";
 }
 .fables-iconphone:before {
   content: "\e91e";
+  color: white;
 }
 .fables-iconphone-icon:before {
   content: "\e91f";
+  
 }
 .fables-iconpinterest:before {
   content: "\e920";

@@ -170,7 +170,8 @@ body{
     color: #2C3E4F !important;
 }
 .fables-header { 
-    padding: 33px 0;
+    padding: 33px  0;
+    
     background-image: url(../images/pages-header-background.jpg); 
 }
 .fables-after-overlay{
@@ -183,7 +184,9 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(44,62,79,.8);
+    /* background-color: rgba(44,62,79,.7); */
+    background-color: rgb(54, 147, 176);
+    
 }
 .overlay-lighter:after{
     background-color: rgba(44,62,79,.7);
@@ -2871,7 +2874,9 @@ a:hover , .btn-link:hover{
     color: #fff;
 }
 .fables-second-text-color{
-    color: #E54D42 ;
+    margin-top: 20px;
+    color:rgb(1, 106, 137);">;
+    
 }
  .fables-second-hover-color:hover , .fables-second-hover-color-link a:hover{
     color: #E54D42  ;
@@ -2902,7 +2907,8 @@ a:hover , .btn-link:hover{
     background-color: #5C6A77 !important;
 }
 .fables-forth-text-color{
-    color: #5C6A77;
+    color:rgb(10, 12, 14);
+    font-size: 16px;
 }
 .fables-forth-border-color{
     border-color: #5C6A77;
@@ -2911,7 +2917,7 @@ a:hover , .btn-link:hover{
     background-color:#99A2AA;
 }
 .fables-fifth-text-color{
-    color: #99A2AA;
+    color:rgb(7, 7, 7);
 }
 .fables-fifth-border-color{
     border-color:#99A2AA;
@@ -3351,6 +3357,7 @@ a.toggle-menu{
 /* mega menu */
 .navbar .mega-dropdown:hover .dropdown-menu.mega-menu{
     display:block;
+    
 }
 .navbar .mega-dropdown {
   position: static !important; }
@@ -3359,6 +3366,7 @@ a.toggle-menu{
   width: 100%;
   border: none;
   border-radius: 0; 
+  
 }
 .navbar .dropdown-menu.mega-menu.v-2 a {
     padding: 15px 10px 10px 35px; 
